@@ -1,0 +1,15 @@
+.Menu__nave {
+    display: flex;
+    justify-content: space-between;
+    background: $primary-color;
+    color: white;
+    font-family: $primary-font;
+    font-size: 30px;
+    width: 100%;
+    height: 81px;
+    padding: 20px $LeftSpace;
+}
+
+.Menu__banner {
+    width: 100%;
+}

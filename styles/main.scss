@@ -1,6 +1,14 @@
+$primary-color: #101939;
+$primary-font: 'Dosis',
+sans-serif;
+$second-font: 'Philosopher',
+sans-serif;
+$LeftSpace: 60px;
 * {
     margin: none;
     box-sizing: border-box;
 }
 
-@import 'mainHeader'
+@import 'mainHeader';
+@import 'mainSearch';
+@import 'mainMenu';
