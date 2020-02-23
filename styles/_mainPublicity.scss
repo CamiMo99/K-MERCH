@@ -1,0 +1,24 @@
+.publicity__banner {
+    width: 100%;
+    position: relative;
+}
+
+.publicity__title {
+    font-family: $second-font;
+    display: flex;
+    position: absolute;
+    left: 1000px;
+    top: 840px;
+    font-size: 55px;
+    text-align: end;
+    padding: 20px $LeftSpace;
+}
+
+.publicity__text {
+    font-family: $primary-font;
+    position: absolute;
+    top: 1500px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px $LeftSpace;
+}

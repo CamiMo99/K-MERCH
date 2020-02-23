@@ -5,10 +5,14 @@ $second-font: 'Philosopher',
 sans-serif;
 $LeftSpace: 60px;
 * {
-    margin: none;
     box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
 }
 
 @import 'mainHeader';
 @import 'mainSearch';
 @import 'mainMenu';
+@import 'mainpublicity';
