@@ -141,4 +141,34 @@ body {
   left: 690px;
   list-style-type: none;
 }
+
+.FullSpecifications__content {
+  position: absolute;
+}
+
+.FullSpecifications__title {
+  font-family: "Philosopher", sans-serif;
+  font-size: 60px;
+  padding: 0px 60px;
+  padding-top: 140px;
+}
+
+.FullSpecifications_text {
+  font-family: "Dosis", sans-serif;
+  font-size: 30px;
+  padding: 0px 60px;
+}
+
+.FullSpecifications__bullets {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  padding: 5px 80px;
+}
+
+.FullSpecifications__img {
+  position: relative;
+  left: 720px;
+  top: -5px;
+  width: 50%;
+}
 /*# sourceMappingURL=main.css.map */

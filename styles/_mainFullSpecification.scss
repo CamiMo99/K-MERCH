@@ -1,0 +1,29 @@
+.FullSpecifications__content {
+    position: absolute;
+}
+
+.FullSpecifications__title {
+    font-family: $second-font;
+    font-size: 60px;
+    padding: 0px $LeftSpace;
+    padding-top: 140px;
+}
+
+.FullSpecifications_text {
+    font-family: $primary-font;
+    font-size: 30px;
+    padding: 0px $LeftSpace;
+}
+
+.FullSpecifications__bullets {
+    font-family: $primary-font;
+    font-size: 20px;
+    padding: 5px 80px;
+}
+
+.FullSpecifications__img {
+    position: relative;
+    left: 720px;
+    top: -5px;
+    width: 50%;
+}
