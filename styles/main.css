@@ -171,4 +171,30 @@ body {
   top: -5px;
   width: 50%;
 }
+
+.NewsLetter {
+  background-color: #101939;
+  text-align: center;
+  padding: 40px;
+}
+
+.NewsLetter__title {
+  font-family: "Philosopher", sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.NewsLetter__box {
+  width: 500px;
+  height: 35px;
+  border-radius: 20px;
+  border: 3px solid white;
+  background: #101939;
+  color: white;
+}
+
+.NewsLetter__img {
+  width: 15%;
+  margin-top: 30px;
+}
 /*# sourceMappingURL=main.css.map */

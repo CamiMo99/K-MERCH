@@ -1,0 +1,25 @@
+.NewsLetter {
+    background-color: $primary-color;
+    text-align: center;
+    padding: 40px;
+}
+
+.NewsLetter__title {
+    font-family: $second-font;
+    font-size: 30px;
+    color: white;
+}
+
+.NewsLetter__box {
+    width: 500px;
+    height: 35px;
+    border-radius: 20px;
+    border: 3px solid white;
+    background: $primary-color;
+    color: white;
+}
+
+.NewsLetter__img {
+    width: 15%;
+    margin-top: 30px;
+}
