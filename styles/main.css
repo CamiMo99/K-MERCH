@@ -5,6 +5,7 @@
 
 body {
   margin: 0px;
+  background-color: #EDEDED;
 }
 
 .start {
@@ -111,5 +112,33 @@ body {
   font-size: 30px;
   font-weight: 600;
   padding: 20px 60px;
+}
+
+.specfication__songs {
+  width: 40%;
+}
+
+.specification__coverAl {
+  width: 59%;
+  position: relative;
+}
+
+.specification__title {
+  font-family: "Philosopher", sans-serif;
+  font-size: 65px;
+  position: absolute;
+  top: 1660px;
+  left: 900px;
+  padding: 20px 60px;
+}
+
+.spicification__text {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  position: absolute;
+  top: 1860px;
+  left: 690px;
+  list-style-type: none;
 }
 /*# sourceMappingURL=main.css.map */

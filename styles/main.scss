@@ -10,9 +10,11 @@ $LeftSpace: 60px;
 
 body {
     margin: 0px;
+    background-color: #EDEDED;
 }
 
 @import 'mainHeader';
 @import 'mainSearch';
 @import 'mainMenu';
 @import 'mainpublicity';
+@import 'mainSpecification';
