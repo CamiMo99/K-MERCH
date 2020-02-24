@@ -45,7 +45,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: "Philosopher", sans-serif;
+  font-family: Lemon;
   font-size: 25px;
   font-weight: bold;
   padding-left: 60px;
@@ -57,6 +57,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style: none;
+  background-color: white;
 }
 
 .search__box {
@@ -64,6 +65,10 @@ body {
   height: 35px;
   border-radius: 20px;
   border: 3px solid #101939;
+  color: #101939;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  font-size: 15px;
 }
 
 .Menu__nave {
@@ -80,7 +85,6 @@ body {
   width: 100%;
   height: 81px;
   padding: 20px 60px;
-  text-decoration: none;
 }
 
 .banner {
@@ -93,7 +97,7 @@ body {
 }
 
 .publicity__title {
-  font-family: "Philosopher", sans-serif;
+  font-family: Lemon;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,8 +128,8 @@ body {
 }
 
 .specification__title {
-  font-family: "Philosopher", sans-serif;
-  font-size: 65px;
+  font-family: Lemon;
+  font-size: 60px;
   position: absolute;
   top: 1660px;
   left: 900px;
@@ -147,7 +151,7 @@ body {
 }
 
 .FullSpecifications__title {
-  font-family: "Philosopher", sans-serif;
+  font-family: Lemon;
   font-size: 60px;
   padding: 0px 60px;
   padding-top: 140px;
@@ -179,7 +183,7 @@ body {
 }
 
 .NewsLetter__title {
-  font-family: "Philosopher", sans-serif;
+  font-family: Lemon;
   font-size: 30px;
   color: white;
 }
@@ -196,5 +200,12 @@ body {
 .NewsLetter__img {
   width: 15%;
   margin-top: 30px;
+}
+
+.foot {
+  font-family: "Dosis", sans-serif;
+  color: #4D4D4D;
+  font-weight: 500;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

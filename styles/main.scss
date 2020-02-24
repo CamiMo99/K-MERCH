@@ -1,8 +1,7 @@
 $primary-color: #101939;
 $primary-font: 'Dosis',
 sans-serif;
-$second-font: 'Philosopher',
-sans-serif;
+$second-font: Lemon;
 $LeftSpace: 60px;
 * {
     box-sizing: border-box;
@@ -20,3 +19,4 @@ body {
 @import 'mainSpecification';
 @import 'mainFullSpecification';
 @import 'mainNewLetter';
+@import 'mainFooter';
