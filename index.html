@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K-MERCH</title>
-    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
@@ -13,39 +13,41 @@
         <p class="start__text">
             K-merch is located in South Korea, the origin of K-pop!
         </p>
-        <h5 class="start__log">Login / </h5>
-        <h5 class="start__reg"> Registrer</h5>
+        <h5 class="start__account">Login / Registrer </h5>
         <h4 class="start__mon">USD $</h4>
     </header>
 
     <section class="search">
         <h1>K-MERCH</h1>
         <input class="search__box" type="text" placeholder="Search a band or product">
+        <button class="search__btn">
+            <img class="seacrh__btn search__btn--lupa" src="./data/lupa-8.png" alt="lupa" >
+        </button>
         <div class="search__imag">
-            <img src="/data/iconoD.jpg" alt="Icono varita de deseos">
-            <img src="/data/iconoC.jpg" alt="Icono del carrito de compras">
+            <img src="./data/iconoD.jpg" alt="Icono varita de deseos">
+            <img src="./data/iconoC.jpg" alt="Icono del carrito de compras">
         </div>
     </section>
 
     <section class="Menu">
         <nav class="Menu__nave">
             <a href="#home" class="Menu__link">
-                <img src="/data/home.png" alt="Home">
+                <img src="./data/home.png" alt="Home">
             </a>
-            <a href="#Group">
-                <img src="/data/lines.png" alt=""> Groups
+            <a href="#Group" class="Menu__link">
+                <img src="./data/lines.png" alt=""> Groups
             </a>
-            <a href="#New">New</a>
-            <a href="#Album">Album</a>
-            <a href="#Accesory">Accesory</a>
-            <a href="#FanLight">Fan Ligth</a>
+            <a href="#New" class="Menu__link">New</a>
+            <a href="#Album" class="Menu__link">Album</a>
+            <a href="#Accesory" class="Menu__link">Accesory</a>
+            <a href="#FanLight" class="Menu__link"> Fan Ligth</a>
         </nav>
     </section>
 
-    <img class="banner" src="/data/banner.jpg" alt="Banner of Blue Flame">
+    <img class="banner" src="./data/banner.jpg" alt="Banner of Blue Flame">
 
     <section class="publicity">
-        <img class="publicity__banner" src="/data/publici.jpg" alt="publicity blue flame album">
+        <img class="publicity__banner" src="./data/publici.jpg" alt="publicity blue flame album">
         <h2 class="publicity__title">ASTRO COMEBACK</h2>
         <p class="publicity__text">
             When they open the book, </br> bluish light covered all over boys.
@@ -53,14 +55,36 @@
     </section>
 
     <section class="specification">
-        <img class="specfication__songs" src="/data/espe1.jpg" alt="">
-        <img class="specification__coverAl" src="/data/espe.jpg" alt="">
+        <img class="specfication__songs" src="./data/espe1.jpg" alt="">
+        <img class="specification__coverAl" src="./data/espe.jpg" alt="">
         <h2 class="specification__title">BLUE FLAME</h2>
         <ul class="spicification__text">
             <li>It has a total of 5 songs.</li>
             <li>It comes in 2 versions. Book & Story</li>
             <li>It has a magnetic hardcover.</li>
         </ul>
+    </section>
+
+    <section class="choose">
+        <h2 class="choose__title">CHOOSE YOUR </br> FAVORITE VERSION</h2>
+        <div class="option">
+            <div class="option choose__optionBtn">
+                <button class="option choose__optionBtn">
+                    <img class="option choose__optionBtn choose__optionBtn--up" src="./data/story.png" alt="storyversionbtn">
+                </button>
+                <button class="option choose__optionBtn">
+                    <img class="option choose__optionBtn choose__optionBtn--down" src="./data/book.png" alt="storyversionbtn">
+                </button>
+            </div>
+            <div class="option choose__text">
+                <h4 class="option choose__text choose__text--up">Story version</h4>
+                <h4 class="option choose__text choose__text--down">Book version</h4>
+            </div>
+        </div>
+        <div class="choose__album">
+            <img class="choose__album" src="./data/choice1.jpg" alt="BookVersionAlbum">
+            <!--<img class="choose__album choose__album--story" src="./data/choice2.jpg" alt="StoryVersionAlbum">-->
+        </div>
     </section>
 
     <section class="FullSpecifications">
@@ -77,18 +101,18 @@
                 <li><strong>Poster</strong>2ea (First Limited)/450x620mm.</li>
             </ul>
         </div>
-        <img class="FullSpecifications__img" src="/data/speciFul.jpg" alt=" Full specification of album">
+        <img class="FullSpecifications__img" src="./data/speciFul.jpg" alt=" Full specification of album">
     </section>
 
     <section class="NewsLetter">
         <h2 class="NewsLetter__title">JOIN THE MAILING LIST</h2>
         <input class="NewsLetter__box" type="text" placeholder="Write your email">
         <br>
-        <img class="NewsLetter__img" src="/data/red.png" alt="Social media">
+        <img class="NewsLetter__img" src="./data/red.png" alt="Social media">
     </section>
 
     <footer class="foot">
-        <p>Copyrigth K-Merch Inc.All rigths reeserved.</p>
+        <p>Copyrigth K-Merch Inc. All rigths reeserved.</p>
     </footer>
 
 </body>

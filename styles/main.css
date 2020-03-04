@@ -8,6 +8,11 @@ body {
   background-color: #EDEDED;
 }
 
+@font-face {
+  font-family: LemonMilk;
+  src: url(/data/LemonMilk.otf);
+}
+
 .start {
   background-color: #101939;
   color: white;
@@ -29,11 +34,7 @@ body {
   margin: 25px 0px;
 }
 
-.start__log {
-  margin: 30px 0px;
-}
-
-.start__reg {
+.start__account {
   margin: 30px 0px;
 }
 
@@ -45,7 +46,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: Lemon;
+  font-family: LemonMilk, serif;
   font-size: 25px;
   font-weight: bold;
   padding-left: 60px;
@@ -67,8 +68,24 @@ body {
   border: 3px solid #101939;
   color: #101939;
   font-family: "Dosis", sans-serif;
-  text-align: center;
+  text-align: left;
+  padding-left: 20px;
   font-size: 15px;
+  position: relative;
+}
+
+.search__btn {
+  width: 90px;
+  height: 35px;
+  background: #101939;
+  border-radius: 20px;
+  position: absolute;
+  left: 907px;
+  border: none;
+}
+
+.search__btn--lupa {
+  width: 30%;
 }
 
 .Menu__nave {
@@ -85,25 +102,34 @@ body {
   width: 100%;
   height: 81px;
   padding: 20px 60px;
+  pointer-events: auto;
+}
+
+.Menu__link {
+  color: white;
+  text-decoration: none;
 }
 
 .banner {
   width: 100%;
 }
 
-.publicity__banner {
-  width: 100%;
+.publicity {
   position: relative;
 }
 
+.publicity__banner {
+  width: 100%;
+}
+
 .publicity__title {
-  font-family: Lemon;
+  font-family: LemonMilk, serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: absolute;
   left: 1000px;
-  top: 840px;
+  top: -20px;
   font-size: 55px;
   text-align: end;
   padding: 20px 60px;
@@ -112,10 +138,14 @@ body {
 .publicity__text {
   font-family: "Dosis", sans-serif;
   position: absolute;
-  top: 1500px;
+  top: 630px;
   font-size: 30px;
   font-weight: 600;
   padding: 20px 60px;
+}
+
+.specification {
+  position: relative;
 }
 
 .specfication__songs {
@@ -124,14 +154,13 @@ body {
 
 .specification__coverAl {
   width: 59%;
-  position: relative;
 }
 
 .specification__title {
-  font-family: Lemon;
+  font-family: LemonMilk, serif;
   font-size: 60px;
   position: absolute;
-  top: 1660px;
+  top: 0px;
   left: 900px;
   padding: 20px 60px;
 }
@@ -141,7 +170,7 @@ body {
   font-weight: 600;
   font-size: 30px;
   position: absolute;
-  top: 1860px;
+  top: 200px;
   left: 690px;
   list-style-type: none;
 }
@@ -151,7 +180,7 @@ body {
 }
 
 .FullSpecifications__title {
-  font-family: Lemon;
+  font-family: LemonMilk, serif;
   font-size: 60px;
   padding: 0px 60px;
   padding-top: 140px;
@@ -183,7 +212,7 @@ body {
 }
 
 .NewsLetter__title {
-  font-family: Lemon;
+  font-family: LemonMilk, serif;
   font-size: 30px;
   color: white;
 }
@@ -207,5 +236,68 @@ body {
   color: #4D4D4D;
   font-weight: 500;
   text-align: center;
+}
+
+/*.choose {
+    display: flex;
+}*/
+.option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.choose__title {
+  font-family: LemonMilk, serif;
+  font-size: 60px;
+  text-align: end;
+  margin-right: auto;
+  padding: 20px 60px;
+}
+
+.choose__optionBtn {
+  border: none;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px;
+  margin-left: auto;
+  width: 150px;
+  position: relative;
+}
+
+.choose__text {
+  font-family: "Dosis", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: end;
+  padding: 0px 70px 0px 30px;
+}
+
+.choose__text--down {
+  padding-top: 25px;
+}
+
+.choose__text--up {
+  padding-top: 10px;
+}
+
+.choose__album {
+  position: absolute;
+  top: 1310px;
+  width: 560px;
+  padding-left: 70px;
 }
 /*# sourceMappingURL=main.css.map */

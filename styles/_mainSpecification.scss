@@ -1,17 +1,20 @@
+.specification {
+    position: relative;
+}
+
 .specfication__songs {
     width: 40%;
 }
 
 .specification__coverAl {
     width: 59%;
-    position: relative;
 }
 
 .specification__title {
     font-family: $second-font;
     font-size: 60px;
     position: absolute;
-    top: 1660px;
+    top: 0px;
     left: 900px;
     padding: 20px $LeftSpace;
 }
@@ -21,7 +24,7 @@
     font-weight: 600;
     font-size: 30px;
     position: absolute;
-    top: 1860px;
+    top: 200px;
     left: 690px;
     list-style-type: none;
 }

@@ -1,7 +1,8 @@
 $primary-color: #101939;
 $primary-font: 'Dosis',
 sans-serif;
-$second-font: Lemon;
+$second-font: LemonMilk,
+serif;
 $LeftSpace: 60px;
 * {
     box-sizing: border-box;
@@ -12,6 +13,11 @@ body {
     background-color: #EDEDED;
 }
 
+@font-face {
+    font-family: LemonMilk;
+    src: url(/data/LemonMilk.otf);
+}
+
 @import 'mainHeader';
 @import 'mainSearch';
 @import 'mainMenu';
@@ -20,3 +26,4 @@ body {
 @import 'mainFullSpecification';
 @import 'mainNewLetter';
 @import 'mainFooter';
+@import 'mainChoose';

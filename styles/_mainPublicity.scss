@@ -1,6 +1,9 @@
+.publicity {
+    position: relative;
+}
+
 .publicity__banner {
     width: 100%;
-    position: relative;
 }
 
 .publicity__title {
@@ -8,7 +11,7 @@
     display: flex;
     position: absolute;
     left: 1000px;
-    top: 840px;
+    top: -20px;
     font-size: 55px;
     text-align: end;
     padding: 20px $LeftSpace;
@@ -17,7 +20,7 @@
 .publicity__text {
     font-family: $primary-font;
     position: absolute;
-    top: 1500px;
+    top: 630px;
     font-size: 30px;
     font-weight: 600;
     padding: 20px $LeftSpace;
