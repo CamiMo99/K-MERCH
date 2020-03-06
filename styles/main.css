@@ -200,7 +200,7 @@ body {
 
 .FullSpecifications__img {
   position: relative;
-  left: 720px;
+  left: 700px;
   top: -5px;
   width: 50%;
 }
@@ -224,6 +224,10 @@ body {
   border: 3px solid white;
   background: #101939;
   color: white;
+  font-family: "Dosis", sans-serif;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 15px;
 }
 
 .NewsLetter__img {
@@ -238,66 +242,132 @@ body {
   text-align: center;
 }
 
-/*.choose {
-    display: flex;
-}*/
-.option {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .choose__title {
   font-family: LemonMilk, serif;
   font-size: 60px;
   text-align: end;
-  margin-right: auto;
   padding: 20px 60px;
 }
 
-.choose__optionBtn {
+.choose__main {
+  position: absolute;
+  top: 2650px;
+  width: 600px;
+  padding-left: 70px;
+}
+
+.choose__options {
   border: none;
-  background-color: transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 10px;
-  margin-left: auto;
-  width: 150px;
   position: relative;
+  left: 920px;
+}
+
+.choose__option {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 3px solid #1a1919;
+}
+
+.choose__option--active {
+  -webkit-box-shadow: 2px 4px 10px #101939;
+          box-shadow: 2px 4px 10px #101939;
+  outline: none;
+  border: 5px solid #274FC8;
+}
+
+.choose__option--1 {
+  background-color: #998D77;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.choose__option--2 {
+  background-color: #33447D;
 }
 
 .choose__text {
   font-family: "Dosis", sans-serif;
   font-size: 40px;
   font-weight: 400;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: end;
+  position: relative;
+  left: 450px;
+  top: -20px;
   padding: 0px 70px 0px 30px;
 }
 
-.choose__text--down {
-  padding-top: 25px;
-}
-
 .choose__text--up {
-  padding-top: 10px;
+  padding-top: 30px;
 }
 
-.choose__album {
-  position: absolute;
-  top: 1310px;
-  width: 560px;
-  padding-left: 70px;
+.choose__text--down {
+  padding-top: 30px;
+}
+
+.gallery__title {
+  font-family: LemonMilk, serif;
+  font-size: 50px;
+  text-align: end;
+  padding: 0px 60px;
+  margin: 60px 0px 0px 0px;
+}
+
+.gallery__main {
+  display: block;
+  margin: auto;
+  width: 900px;
+  height: 650px;
+  padding: 0px 50px 20px 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.gallery__thumbs {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(16, 25, 57, 0.6);
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.gallery__thumb {
+  width: 80px;
+  height: 80px;
+  margin: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 100%;
+}
+
+.gallery__thumb--active {
+  border: 2px solid #274FC8;
+  padding: 10px;
 }
 /*# sourceMappingURL=main.css.map */

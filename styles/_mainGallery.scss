@@ -1,0 +1,39 @@
+.gallery {
+    &__title {
+        font-family: $second-font;
+        font-size: 50px;
+        text-align: end;
+        padding: 0px $LeftSpace;
+        margin: 60px 0px 0px 0px;
+    }
+    &__main {
+        display: block;
+        margin: auto;
+        width: 900px;
+        height: 650px;
+        padding: 0px 50px 20px 50px;
+        object-fit: contain;
+        object-position: center;
+    }
+    &__thumbs {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(16, 25, 57, 0.6);
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+    &__thumb {
+        width: 80px;
+        height: 80px;
+        margin: 60px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 100%;
+        &--active {
+            border: 2px solid #274FC8;
+            padding: 10px;
+        }
+    }
+}
