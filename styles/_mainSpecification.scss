@@ -23,4 +23,7 @@
         left: 690px;
         list-style-type: none;
     }
+    @media (max-width: $breakpoint-respo) {
+        display: none;
+    }
 }
