@@ -148,7 +148,7 @@ body {
   position: relative;
 }
 
-.specfication__songs {
+.specification__songs {
   width: 40%;
 }
 
@@ -165,7 +165,7 @@ body {
   padding: 20px 60px;
 }
 
-.spicification__text {
+.specification__text {
   font-family: "Dosis", sans-serif;
   font-weight: 600;
   font-size: 30px;
@@ -186,7 +186,7 @@ body {
   padding-top: 140px;
 }
 
-.FullSpecifications_text {
+.FullSpecifications__text {
   font-family: "Dosis", sans-serif;
   font-size: 30px;
   padding: 0px 60px;

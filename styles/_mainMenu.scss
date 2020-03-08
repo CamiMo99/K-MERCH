@@ -1,19 +1,20 @@
-.Menu__nave {
-    display: flex;
-    justify-content: space-between;
-    background: $primary-color;
-    color: white;
-    font-family: $primary-font;
-    font-size: 30px;
-    width: 100%;
-    height: 81px;
-    padding: 20px $LeftSpace;
-    pointer-events: auto;
-}
-
-.Menu__link {
-    color: white;
-    text-decoration: none;
+.Menu {
+    &__nave {
+        display: flex;
+        justify-content: space-between;
+        background: $primary-color;
+        color: white;
+        font-family: $primary-font;
+        font-size: 30px;
+        width: 100%;
+        height: 81px;
+        padding: 20px $LeftSpace;
+        pointer-events: auto;
+    }
+    &__link {
+        color: white;
+        text-decoration: none;
+    }
 }
 
 .banner {
