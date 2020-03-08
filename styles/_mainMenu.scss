@@ -15,6 +15,26 @@
         color: white;
         text-decoration: none;
     }
+    @media (max-width: $breakpoint-respo) {
+        display: none;
+    }
+}
+
+.BtnHamburger {
+    background-color: $primary-color;
+    width: 40px;
+    height: 40px;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    border: none;
+    align-items: stretch;
+    span {
+        height: 3px;
+        width: 100%;
+        background-color: white;
+    }
 }
 
 .banner {

@@ -2,12 +2,10 @@
     display: flex;
     font-family: $second-font;
     font-size: 25px;
-    font-weight: bold;
     padding-left: $LeftSpace;
     padding-right: $LeftSpace;
     align-items: center;
     justify-content: space-between;
-    list-style: none;
     background-color: white;
     &__box {
         width: 500px;
@@ -32,5 +30,40 @@
     }
     &__btn--lupa {
         width: 30%;
+    }
+}
+
+@media (max-width: $breakpoint-respo) {
+    .search {
+        display: flex;
+        flex-direction: column;
+        font-family: $second-font;
+        font-size: 25px;
+        align-items: center;
+        background-color: white;
+        &__box {
+            width: 330px;
+            height: 35px;
+            border-radius: 20px;
+            border: 3px solid $primary-color;
+            color: $primary-color;
+            font-family: $primary-font;
+            text-align: left;
+            font-size: 15px;
+        }
+        &__btn {
+            width: 60px;
+            height: 35px;
+            background: $primary-color;
+            border-radius: 20px;
+            top: 155px;
+            left: 310px;
+            border: none;
+        }
+        &__imag {
+            align-items: center;
+            flex-direction: row;
+            margin: 25px 0px 10px 0px;
+        }
     }
 }

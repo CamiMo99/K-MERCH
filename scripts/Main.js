@@ -1,3 +1,19 @@
+var mainnav = document.querySelector('.Menu__nave');
+var hambtn = document.querySelector('.BtnHamburger');
+
+var handleHamClick = function(event) {
+    console.log(event, 'otra cosa');
+    mainnav.classList.toggle('Menu__nave--mobile');
+}
+hambtn.addEventListener('click', handleHamClick);
+
+function handleWindowResize(event) {
+    if (window.innerWidth > 414) {
+        mainnav.classList.remove('Menu__nave--mobile');
+    }
+}
+window.addEventListener('resize', handleWindowResize);
+
 //GALLERY
 var main = document.querySelector('.gallery__main');
 var thumbs = document.querySelectorAll('.gallery__thumb');
