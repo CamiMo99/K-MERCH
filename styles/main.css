@@ -492,7 +492,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    left: 25px;
+    left: 35px;
     top: 100px;
     padding: 5px;
   }
@@ -554,42 +554,43 @@ body {
 }
 
 @media (max-width: 414px) {
-  .gallery {
-    /* &__main {
-            display: block;
-            margin: auto;
-            width: 900px;
-            height: 650px;
-            padding: 0px 50px 20px 50px;
-            object-fit: contain;
-            object-position: center;
-        }
-        &__thumbs {
-            height: 100px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: rgba(16, 25, 57, 0.6);
-            padding: 10px;
-            margin-bottom: 5px;
-        }
-        &__thumb {
-            width: 80px;
-            height: 80px;
-            margin: 60px;
-            object-fit: cover;
-            object-position: center;
-            border-radius: 100%;
-            &--active {
-                border: 2px solid #274FC8;
-                padding: 10px;
-            }
-        }*/
-  }
   .gallery__title {
     font-size: 40px;
     text-align: center;
-    margin: 200px 0px 0px 0px;
+    margin: 200px 0px 20px 0px;
+  }
+  .gallery__main {
+    width: 430px;
+    height: 350px;
+  }
+  .gallery__thumbs {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: rgba(16, 25, 57, 0.6);
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  .gallery__thumb {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    border-radius: 100%;
+  }
+  .gallery__thumb--active {
+    border: 2px solid #274FC8;
+    padding: 5px;
   }
 }
 /*# sourceMappingURL=main.css.map */
