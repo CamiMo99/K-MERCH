@@ -23,6 +23,9 @@
         width: 15%;
         margin-top: 30px;
     }
+     ::-webkit-input-placeholder {
+        color: rgba(255, 255, 255, 0.767);
+    }
 }
 
 @media (max-width: $breakpoint-respo) {
