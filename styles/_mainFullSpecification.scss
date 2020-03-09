@@ -25,3 +25,33 @@
         width: 50%;
     }
 }
+
+@media (max-width: $breakpoint-respo) {
+    .FullSpecifications {
+        &__content {
+            position: static;
+        }
+        &__title {
+            font-size: 35px;
+            padding: 0px $LeftSpace;
+            padding-top: 20px;
+            text-align: center;
+        }
+        &__text {
+            font-family: $primary-font;
+            font-size: 20px;
+            padding: 0px $LeftSpace;
+            text-align: center;
+        }
+        &__bullets {
+            font-family: $primary-font;
+            font-size: 15px;
+            padding: 5px 70px;
+        }
+        &__img {
+            position: static;
+            width: 100%;
+            padding: 20px;
+        }
+    }
+}

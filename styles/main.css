@@ -322,6 +322,34 @@ body {
   width: 50%;
 }
 
+@media (max-width: 414px) {
+  .FullSpecifications__content {
+    position: static;
+  }
+  .FullSpecifications__title {
+    font-size: 35px;
+    padding: 0px 60px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .FullSpecifications__text {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    padding: 0px 60px;
+    text-align: center;
+  }
+  .FullSpecifications__bullets {
+    font-family: "Dosis", sans-serif;
+    font-size: 15px;
+    padding: 5px 70px;
+  }
+  .FullSpecifications__img {
+    position: static;
+    width: 100%;
+    padding: 20px;
+  }
+}
+
 .NewsLetter {
   background-color: #101939;
   text-align: center;
@@ -546,6 +574,7 @@ body {
   -o-object-position: center;
      object-position: center;
   border-radius: 100%;
+  cursor: pointer;
 }
 
 .gallery__thumb--active {
@@ -557,7 +586,7 @@ body {
   .gallery__title {
     font-size: 40px;
     text-align: center;
-    margin: 200px 0px 20px 0px;
+    margin: 250px 0px 20px 0px;
   }
   .gallery__main {
     width: 430px;
