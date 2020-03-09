@@ -1,18 +1,19 @@
-var mainnav = document.querySelector('.Menu__nave');
-var hambtn = document.querySelector('.BtnHamburger');
+var mainnav = document.querySelector('.Mainnav');
+var hambtn = document.querySelector('.ham__BtnHamburger');
 
 var handleHamClick = function(event) {
     console.log(event, 'otra cosa');
-    mainnav.classList.toggle('Menu__nave--mobile');
+    mainnav.classList.toggle('Mainnav--mobile');
 }
 hambtn.addEventListener('click', handleHamClick);
 
 function handleWindowResize(event) {
-    if (window.innerWidth > 414) {
-        mainnav.classList.remove('Menu__nave--mobile');
+    if (window.innerWidth > 400) {
+        mainnav.classList.remove('mainnav--mobile');
     }
 }
 window.addEventListener('resize', handleWindowResize);
+
 
 //GALLERY
 var main = document.querySelector('.gallery__main');
