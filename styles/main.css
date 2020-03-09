@@ -449,7 +449,7 @@ body {
 
 .choose__main {
   position: absolute;
-  top: 2650px;
+  top: 2550px;
   width: 600px;
   padding-left: 70px;
 }
@@ -587,7 +587,7 @@ body {
   font-family: LemonMilk, serif;
   font-size: 50px;
   text-align: end;
-  padding: 0px 60px;
+  padding: 10px 60px;
   margin: 60px 0px 0px 0px;
 }
 
